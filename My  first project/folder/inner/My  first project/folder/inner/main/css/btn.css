@@ -1,0 +1,85 @@
+.btn{
+    text-decoration: none;
+    border-radius: 35px;
+    background: #F5170E;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn__ancer{
+    text-decoration: none;
+    border-radius: 35px;
+    border: 1px solid #F5170E;
+    
+    color:#F5170E;
+    padding: 18px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.btn__ancer:hover{
+    background: #F5170E;
+    color: #fff;
+}
+
+.btn__ancer--services{
+    text-decoration: none;
+    border-radius: 35px;
+    border: 1px solid #F5170E;
+    
+    color:#F5170E;
+    padding: 18px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.btn__ancer--services:hover{
+    background: #F5170E;
+    color: #fff;
+}
+
+.btn__border{
+    
+    color: #fff;
+}
+button{
+    border: none;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+.btn-bg__grey{
+    border-radius: 35px;
+    background: #8E8E8E;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn-bg__grey:hover{
+    background: #2B2B2B;
+}
+.btn__red:hover{
+    background: #DA0100;
+}
+
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btns{
+    margin-right: 17px;
+}

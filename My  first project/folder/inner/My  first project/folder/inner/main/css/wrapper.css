@@ -1,0 +1,31 @@
+.main-page-wrapper {
+    background:  url(../../../img/1.jpg) center top no-repeat , url(../../../img/2.jpg) right bottom  307px no-repeat #001821;
+    
+}
+
+.wrapper_services{
+    background: url(../../services/images/headline.png) center top no-repeat;
+}
+
+.wrapper__reviews{
+    background: url(../../services/images/headline.svg) center top no-repeat;
+    
+}
+.wrapper__welcome{
+    background: url(../../welcome/img-wel/bg.svg) ;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

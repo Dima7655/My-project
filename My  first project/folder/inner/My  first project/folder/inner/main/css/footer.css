@@ -1,0 +1,83 @@
+.contacts__work-footer{
+    font-size: 11px;
+   
+    color: #98A4A8;
+    
+}
+
+
+
+.footer--footer{
+   
+    height: 150px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 21px;
+}
+
+.footer{
+    background: #001821;
+}
+
+.footer--footer__main{
+    display: flex;
+}
+
+.social__link{
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    background: center no-repeat;
+}
+
+.social__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+
+.social__item:last-child{
+    margin-right: 0;
+}
+.social__item--telegram .social__link {
+    background-image: url(../img/telegram.png) ;
+   
+}
+
+
+.social__item--telegram .social__link:hover {
+    background: url(../img/t.png) ;
+   
+}
+
+.social__item--vk .social__link{
+    background-image: url(../img/vk.png) ;
+   
+}
+
+.social__item--vk .social__link:hover{
+    background-image: url(../img/vk\ 1.png) ;
+   
+}
+.social__item--fb .social__link{
+    background-image: url(../img/f.png);
+    
+}
+
+
+.social__item--fb .social__link:hover{
+    background-image: url(../img/f2.png);
+    
+}
+.social__item--inst .social__link{
+    background-image: url(../img/in.png);
+   
+}
+.social__item--inst .social__link:hover{
+    background-image: url(../img/in1.png);
+   
+}

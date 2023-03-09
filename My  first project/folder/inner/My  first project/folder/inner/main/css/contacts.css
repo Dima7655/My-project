@@ -1,0 +1,31 @@
+.contacts{
+    margin-right: 12px;
+    font-style: normal;
+    text-align: right;
+}
+
+
+
+
+.contact__telephone{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+    
+
+}
+
+.contacts__work-hours{
+    font-size: 13px;
+   
+    color: #98A4A8;
+    margin-top: -7px;
+    margin-right: 3px;
+}
+
+
+.contacts__work-hours:hover{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}

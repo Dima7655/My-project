@@ -1,0 +1,15 @@
+.wrapper{
+    width: 400px;
+    height: 450px;
+    background: url(../800153ba-6702-4bda-b28c-792eba38576e.png) 0 0  no-repeat;
+    margin-top: 40px;
+    animation: sphere 1s steps(20) infinite;
+}
+.wrapper:hover{
+    animation-play-state: paused;
+}
+@keyframes sphere{
+    100%{
+        background-position-x: -8000px;
+    }
+}

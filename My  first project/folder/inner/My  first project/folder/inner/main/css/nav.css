@@ -1,0 +1,35 @@
+.pagination{
+    display: inline-block;
+   
+    vertical-align:middle;
+    
+}
+.pagination__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+}
+
+.navigation__services{
+    color: black;
+}
+
+.pagination__link--services:hover{
+    background: #F5170E;
+    color: #fff;
+    
+}
+.pagination__link--services{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    border-radius: 50%;
+}

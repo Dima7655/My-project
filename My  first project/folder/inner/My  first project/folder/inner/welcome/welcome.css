@@ -1,0 +1,51 @@
+@import url(../main/css/btn.css);
+@import url(../main/css/base.css);
+@import url(../main/css/fonts.css);
+@import url(../main/css/wrapper.css);
+
+
+
+
+   
+
+.centr{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.centr__asia{
+    
+    opacity: 0;
+    animation: zoom .9s forwards; 
+    
+}
+
+@keyframes zoom {
+    0%{
+        transform:scale(.6);
+        
+    }
+    20%{
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(.9);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+    100%{
+       transform: scale(1);
+       opacity: 1;
+
+    }
+}
+    
+    
+
+.content{
+    margin-bottom: 72px;
+}
